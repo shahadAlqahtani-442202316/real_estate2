@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+background-color: white;
+}
+.heading{
+text-align: center;
+margin-top: 25px;
+}
+
+.heading h1{
+font-size: 75px;
+color:#36455c;
+margin-bottom: 10px;
+}
+.heading p{
+font-size: 30px;
+color: #666;
+margin-bottom: 50px;
+}
+
+.about-us{
+  display: flex;
+  align-items: center;
+  width:85%;
+  margin: auto;
+}
+
+.about-us img{
+  flex: 0 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+.content{
+  padding: 35px;
+}
+
+.content h2{
+  font-size: 30px;
+  color: #666;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+
+.read-more-btn{
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #DFDFDF;
+  color: black;
+  border-radius: 10px;
+  border-color: #666;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 1s;
+}
+
+.read-more-btn:hover{
+  background-color: #53D4FD;
+  color: white;
+}
+
+p{
+  font-weight: 500;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+
+@media(max-width: 600px){
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us img{
+    max-width: 100%;
+  }
+  .content{
+    padding: 20px;
+  }
+}
