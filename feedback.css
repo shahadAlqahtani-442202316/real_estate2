@@ -63,13 +63,23 @@ body {
 
 }
 
-.buttons{
-    border-radius: 5px;
-    border-color: #DFD5D5;
-    border-width: 2px;
-    background-color: #F3F3F3;
-   
+.buttons {
+  border-radius: 5px;
+  border-color: #dfd5d5;
+  border-width: 2px;
+  background-color: #f3f3f3;
 }
+
+.btn:hover {
+color: #dfd5d5; 
+
+}
+.buttons:hover{
+  background-color: #6b0d0d;
+  color: #dfd5d5;
+
+}
+
 
 header button{
   width: 140px;
