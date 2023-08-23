@@ -133,3 +133,31 @@ h1{
   right: 3.5%;
 
 }
+footer{
+  width : 100% ;
+  height: 210px;
+  background-color:#F3F3F3;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  font-weight: bold;
+
+}
+
+footer button {
+  width: 130px;
+  padding: 3px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  outline: none;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+  border-color: #DFD5D5;
+  border-width: 2px;
+  background-color: #53D4FD;
+}
