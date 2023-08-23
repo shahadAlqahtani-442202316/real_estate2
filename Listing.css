@@ -1,175 +1,189 @@
-*{
-    margin : 0;
-    padding : 0;
-    }
-    
-    header{
-        width : 100% ;
-        height: 70px;
-        background-color:#fff;
-    }
-       header button{
-        width: 140px;
-        padding: 10px;
-        margin-top: 25px;
-        background: none;
-        border:none;
-        outline: none;
-        font-size: 18px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
-    }
-
-    <!-- مايتفعل لون الخط عند المرور على الزر-->
- .btn:hover{
-   
-        color: red;
-    
-    }
-.buttons:hover{
-   
-    color: #DFD5D5;   
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.MapSearch :hover{
-    color: #DFD5D5;   
-
+header {
+  width: 100%;
+  height: 70px;
+  /* background-color:#fff; */
 }
-.Filter:hover{
-    color: #DFD5D5;   
-
-}
-.Sort:hover{
-    color: #DFD5D5;   
-
-}
-.buttons{
-    border-radius: 5px;
-    border-color: #DFD5D5;
-    border-width: 2px;
-    background-color: #F3F3F3;
-   
+header button {
+  width: 140px;
+  padding: 10px;
+  margin-top: 25px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
-header img{
-    width: 100px;
-    float: left;
-    margin-top: 4px;
-    margin-left: 8px;
+.btn:hover {
+color: #dfd5d5; 
 
+}
+.buttons:hover {
+  background-color: #a40c0c;
+  color: #dfd5d5;
+}
+
+
+.Filter:hover {
+  color: #dfd5d5;
+}
+.Sort:hover {
+  color: #dfd5d5;
+}
+.buttons {
+  border-radius: 5px;
+  border-color: #dfd5d5;
+  border-width: 2px;
+  background-color: #f3f3f3;
+}
+
+header img {
+  width: 100px;
+  float: left;
+  margin-top: 4px;
+  margin-left: 8px;
 }
 .Container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .MapSearch {
-    border-radius: 5px;
-    border-color: #DFD5D5;
-    border-width: 2px;
-    background-color: #F3F3F3;
-    width: 150px;
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 18px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 30px;
-
+  border-radius: 5px;
+  border-color: #dfd5d5;
+  border-width: 2px;
+  background-color: #f3f3f3;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
+  text-shadow: 1px 1px #b7b7b7
 }
+
+.MapSearch:hover {
+  color: #dfd5d5;
+}
+
+
 .Filter {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border-radius: 5px;
-    border-color: #DFD5D5;
-    border-width: 2px;
-    background-color: #F3F3F3;
-    width: 150px;
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 18px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 90px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  border-color: #dfd5d5;
+  border-width: 2px;
+  background-color: #f3f3f3;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 90px;
 }
 .Sort {
-    position: absolute;
-    right: 170px;
-    border-radius: 5px;
-    border-color: #DFD5D5;
-    border-width: 2px;
-    background-color: #F3F3F3;
-    width: 150px;
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 18px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 30px;
-}
- 
-
-*{
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
+  position: absolute;
+  right: 170px;
+  border-radius: 5px;
+  border-color: #dfd5d5;
+  border-width: 2px;
+  background-color: #f3f3f3;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
 }
 
-.container{
-    background:white;
-    padding:15px 9%;
-    padding-bottom: 100px;
+* {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
 }
 
-
-
-.container .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:15px;
-    margin: 10px 10px;
+.container {
+  background: white;
+  padding: 15px 9%;
+  padding-bottom: 100px;
 }
 
-
-.container .box-container .box{
-    position:relative;
-    height: 200px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    background: #F3F3F3;
-    text-align: center;
-    padding:30px 20px;
-    margin: 10px 10px;
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+  margin: 10px 10px;
 }
 
-.container .box-container .box img{
-    height: 100px;
+.container .box-container .box {
+  position: relative;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #f3f3f3;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 10px 10px;
 }
 
-.container .box-container .box h3{
-    color:#444;
-    font-size: 22px;
-    padding:10px 0;
+.container .box-container .box img {
+  height: 100px;
 }
 
-
-
-
-.container .box-container .box:hover{
-    box-shadow: 0 10px 15px #F3F3F3;
-    transform: scale(1.03);
+.container .box-container .box h3 {
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
 }
 
+.container .box-container .box:hover {
+  box-shadow: 0 10px 15px #f3f3f3;
+  transform: scale(1.03);
+}
+footer{
+  width : 100% ;
+  height: 200px;
+  background-color:#F3F3F3;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  font-weight: bold;
 
+}
 
+footer button {
+  width: 130px;
+  padding: 3px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  outline: none;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+  border-color: #DFD5D5;
+  border-width: 2px;
+  background-color: #53D4FD;
+}
